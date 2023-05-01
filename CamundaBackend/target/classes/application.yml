@@ -1,0 +1,30 @@
+camunda:
+  bpm:
+    admin-user:
+      id: admin
+      password: admin
+    authorization:
+      enabled: false
+
+server:
+  port: 8095
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+spring:
+  application:
+    name: camunda-api
+  datasource:
+    driverClassName: org.postgresql.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://localhost:5432/healthCare
+    username: root
+    password: root
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+

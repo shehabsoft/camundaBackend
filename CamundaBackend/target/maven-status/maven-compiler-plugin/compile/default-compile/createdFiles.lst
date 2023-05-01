@@ -1,0 +1,6 @@
+org\example\delegates\NotifyMessageEvent.class
+org\example\delegates\SentMessageDelegate.class
+org\example\Main.class
+org\example\delegates\PrintReceiptDelegate.class
+org\example\delegates\SendMailDelegate.class
+org\example\delegates\PrintCertificateDelegate.class
