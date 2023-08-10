@@ -29,7 +29,7 @@
     <bpmn:endEvent id="Event_04nqpiq">
       <bpmn:extensionElements>
         <camunda:inputOutput>
-          <camunda:inputParameter name="message_correlation" />
+          <camunda:inputParameter name="message_correlation">PaymentSuccessMessage</camunda:inputParameter>
           <camunda:inputParameter name="process_correlation">HealthCare</camunda:inputParameter>
         </camunda:inputOutput>
       </bpmn:extensionElements>
@@ -41,7 +41,7 @@
     </bpmn:sequenceFlow>
     <bpmn:endEvent id="Event_03ur2kf">
       <bpmn:incoming>Flow_12y1dpe</bpmn:incoming>
-      <bpmn:errorEventDefinition id="ErrorEventDefinition_1azcg4a" errorRef="Error_1jixpxv" />
+      <bpmn:errorEventDefinition id="ErrorEventDefinition_1l1a8yy" errorRef="Error_1jixpxv" />
     </bpmn:endEvent>
     <bpmn:textAnnotation id="TextAnnotation_0f42bnb">
       <bpmn:text>printed Suceefully</bpmn:text>
@@ -96,7 +96,7 @@
       <bpmndi:BPMNShape id="Event_0fczy2w_di" bpmnElement="Event_04nqpiq">
         <dc:Bounds x="762" y="192" width="36" height="36" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_0w2aj3m_di" bpmnElement="Event_03ur2kf">
+      <bpmndi:BPMNShape id="Event_178k464_di" bpmnElement="Event_03ur2kf">
         <dc:Bounds x="762" y="302" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Association_1hxwzue_di" bpmnElement="Association_1hxwzue">

@@ -22,9 +22,17 @@ spring:
     driverClassName: org.postgresql.Driver
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:postgresql://localhost:5432/healthCare
-    username: root
-    password: root
+    username: postgres
+    password: postgres
 
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
+    generate-ddl: true
+    hibernate.ddl-auto : create
+jwt:
+  secret: secret
+
+
+jwttoken:
+    message: dfgdfgfg
